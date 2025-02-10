@@ -12,29 +12,27 @@
 const averageGrade = 90;
 
 if (averageGrade < 60) {
-    console.log("Незадовільно");
+	console.log('Незадовільно');
 } else if (averageGrade >= 60 && averageGrade <= 70) {
-    console.log("Задовільно");
+	console.log('Задовільно');
 } else if (averageGrade >= 71 && averageGrade <= 80) {
-    console.log("Дуже добре");
+	console.log('Дуже добре');
 } else if (averageGrade >= 81 && averageGrade <= 90) {
-    console.log("Добре");
+	console.log('Добре');
 } else {
-    console.log("Відмінно")
+	console.log('Відмінно');
 }
-
-
 
 const averageGrade1 = 59;
 
 if (averageGrade1 >= 91) {
-    console.log("Відмінно");
+	console.log('Відмінно');
 } else if (averageGrade1 >= 81) {
-    console.log("Дуже добре");
+	console.log('Дуже добре');
 } else if (averageGrade1 >= 71) {
-    console.log("Добре");
+	console.log('Добре');
 } else if (averageGrade1 >= 60) {
-    console.log("Задовільно");
+	console.log('Задовільно');
 } else {
-    console.log("Незадовільно");
+	console.log('Незадовільно');
 }

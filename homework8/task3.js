@@ -6,9 +6,8 @@
 // Використовуючи метод reduce, обчисліть суму всіх елементів масиву.
 // Виведіть отриману суму на консоль.
 
-
 const numbers = [10, 20, 30, 40, 50];
 const sumOfNumbers = numbers.reduce((accumulator, currentValue) => {
-    return accumulator + currentValue
+	return accumulator + currentValue;
 });
-console.log(sumOfNumbers)
+console.log(sumOfNumbers);

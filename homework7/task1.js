@@ -7,19 +7,18 @@
 // Створіть ще дві функції які ви будете передавати у якості колбеків, наприклад handleEven та handleOdd. Кожна з них має виводити просте повідомлення в консоль. Наприклад handleEven буде виводити текст “number is even”, a handleOdd буде виводити текст “number is odd”
 // Викличте функцію handleNum і передайте в якості аргументів довільне число і дві функції які ви створили раніше
 
-
 function handleNum(number, handleEvenCb, handleOddCb) {
-    if (number % 2 === 0) {
-        handleEvenCb(number);
-    } else {
-        handleOddCb(number);
-    }
+	if (number % 2 === 0) {
+		handleEvenCb(number);
+	} else {
+		handleOddCb(number);
+	}
 }
 function handleEven(number) {
-    console.log(`Number ${number} is even`);
+	console.log(`Number ${number} is even`);
 }
 function handleOdd(number) {
-    console.log(`Number ${number} is odd`);
+	console.log(`Number ${number} is odd`);
 }
 
 handleNum(40, handleEven, handleOdd);

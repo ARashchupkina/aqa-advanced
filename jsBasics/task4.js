@@ -1,7 +1,5 @@
 // task4
 
-
-
 // Завдання 4: Обчислення площі та об'єму
 
 // Завдання 4.1
@@ -10,14 +8,10 @@
 // Створіть змінну radius і присвойте їй числове значення радіуса кола.
 // Обчисліть площу кола за формулою π * radius^2 і виведіть результат.
 
-
-
 let radius = 10;
-let area = Math.PI * Math.pow(radius, 2); //let area = Math.PI * radius * radius 
+let area = Math.PI * Math.pow(radius, 2); //let area = Math.PI * radius * radius
 
 console.log(area);
-
-
 
 // Завдання 4.2
 
@@ -25,14 +19,11 @@ console.log(area);
 // Створіть змінну width і присвойте їй числове значення ширини прямокутника.
 // Обчисліть площу прямокутника за формулою length * width і виведіть результат.
 
-
 let length = 10;
 let width = 6;
 let area1 = length * width;
 
 console.log(area1);
-
-
 
 // Завдання 4.3
 
@@ -40,7 +31,6 @@ console.log(area1);
 // Створіть змінну height і присвойте їй числове значення висоти циліндра.
 // Обчисліть об'єм циліндра за формулою π * radius^2 * height і виведіть результат.
 // Округліть кожне отримане значення до 2 значень після крапки
-
 
 let radius1 = 5;
 let height = 10;
