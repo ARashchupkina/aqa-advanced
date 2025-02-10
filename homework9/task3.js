@@ -11,30 +11,26 @@
 // Створіть об'єкт car3. Використайте оператор spread щоб додати всі властивості що є в car1 та car2 до об’єкту car3.
 // Виведіть об'єкт car3 в консоль.
 
-
-
 //рішення що виводить об'єкт з властивостями car12 і car12
 const car = {
-    brand: "Jeep",
-    model: "Grand Cherokee",
-    year: 2023
+	brand: 'Jeep',
+	model: 'Grand Cherokee',
+	year: 2023,
 };
 const car2 = {
-    brand: "BMW",
-    model: "X1",
-    year: 2022
+	brand: 'BMW',
+	model: 'X1',
+	year: 2022,
 };
 const car3 = {
-    ...car,
-    car2Brand: car2.brand,
-    car2Model: car2.model,
-    car2Year: car2.year,
+	...car,
+	car2Brand: car2.brand,
+	car2Model: car2.model,
+	car2Year: car2.year,
 };
-console.log(car3)
+console.log(car3);
 
-
-
-const car11 = { brand: "Jeep", model: "Grand Cherokee", year: 2023 };
-const car12 = { brand: "BMW", model: "X1", year: 2022 };
+const car11 = { brand: 'Jeep', model: 'Grand Cherokee', year: 2023 };
+const car12 = { brand: 'BMW', model: 'X1', year: 2022 };
 const car13 = { ...car11, ...car12 }; //об’єкти мають ключі з однаковим іменем, тому в результаті отримуємо значення яке було вказано останнім.
-console.log(car13)
+console.log(car13);

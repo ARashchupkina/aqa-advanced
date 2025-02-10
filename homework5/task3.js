@@ -8,15 +8,12 @@
 
 let number = 6;
 for (let i = 1; i <= 10; i++) {
-console.log(`${number} * ${i} = ${number * i}`);
+	console.log(`${number} * ${i} = ${number * i}`);
 }
-    
-
 
 let number1 = 6;
 let number2 = 1;
 while (number2 <= 10) {
-console.log(`${number1} * ${number2} = ${number1 * number2}`);
-number2++
+	console.log(`${number1} * ${number2} = ${number1 * number2}`);
+	number2++;
 }
-    
