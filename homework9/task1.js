@@ -10,10 +10,9 @@
 
 const student = new Object();
 
-student.firstName = "David";
-student.lastName = "Jonson";
+student.firstName = 'David';
+student.lastName = 'Jonson';
 student.age = 18;
-student.courses = ["Mathematics", "History", "Programming"];
+student.courses = ['Mathematics', 'History', 'Programming'];
 
-console.log(student)
-
+console.log(student);
